@@ -1,2 +1,6 @@
 # CustomAssetImporterPreset
 Unity2018.1 で実装されるPreset を使いたいけど諸事情でバージョンアップできない方向けツール
+
+# 実装方針
+ScriptableObject に設定を色々記載して
+TextureImporter で指定のパスや拡張子が一致したらその設定を適応する
